@@ -1,0 +1,154 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+
+header {
+    background: #a23535;
+    color: #ffffff;
+    border-bottom: #9E9E9E 3px solid;
+    min-height: 70px;
+    
+}
+header ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+    padding: 60px 0px 0px 0px;
+    
+}
+
+header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+    bottom: 0;
+}
+
+header li :hover{
+    opacity: 0.7;
+}
+
+header #logo{
+    float: left;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* Showcase */
+#showcase {
+    background: url('img/cover.jpg') no-repeat 0;
+    text-align: center;
+    color: whitesmoke;
+    min-height: 300px;
+    background-size: cover;
+    
+} 
+
+#showcase h1{
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 16px;
+}
+
+#newsletter{
+    padding: 15px;
+    color: #ffffff;
+    background-color: #35424a;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+    
+}
+
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: :25px;
+    width: 250px;
+}
+
+/*boxes */
+
+#boxes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    padding: 5px;
+}
+
+.box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    padding: 10px;
+    text-align: center;
+    font-family: arial;
+    
+  }
+
+#boxes .box img{
+    width: 100%;
+    max-height: 300px;
+    
+}
+
+.harga {
+    color:grey;
+    font-size: 22px;
+}
+
+.box button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+.box button:hover {
+    opacity: 0.7;
+}
+
+/* footer */
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #a23535;
+    text-align: center;
+}
+
+
